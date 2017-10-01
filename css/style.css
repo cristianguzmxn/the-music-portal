@@ -1,0 +1,83 @@
+body{
+	background-color: #151515;
+
+}
+
+.intro{
+	z-index: 1;
+	position: absolute;
+	animation-name: intro;
+	animation-duration: 3s;
+	animation-delay: 0.8s;
+	
+
+	
+}
+
+.intro2{
+   z-index: 1;
+   position: absolute;
+   margin-left: 49.55%;
+   animation-name: intros;
+   animation-duration: 3s;
+   animation-delay: 0.8s;
+
+}
+
+.logo{
+	width: 13%;
+	
+	margin-top: 1.5%;
+	margin-left: 3%;
+	position: absolute;
+}
+
+ #image1
+      {
+        width: 60%;
+        margin-top: 15%;
+        margin-left: 35%;
+        position: absolute;
+        border-image: solid #BC0A2C 1%;
+
+      }
+#image2{
+	  width: 60%;
+        margin-top: 15%;
+        margin-left: 35%;
+        position: absolute;
+}     
+
+
+.label{
+	margin-left: 40%;
+	margin-top: 38%;
+	position: absolute;
+}
+
+@keyframes intro{
+	from {
+    transform: translateX(0px);
+  
+  }
+  to {
+    transform: translateX(-800px);
+    
+} 
+ }
+ 
+
+
+@keyframes intros{
+	from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(800px);
+}
+
+
+
+
+
+
